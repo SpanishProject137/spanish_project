@@ -1,0 +1,191 @@
+:root {
+    --timeline-length: 1505px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: clip;
+}
+
+#Timeline {
+    left: 50%;
+    top: 100%;
+    transform: translateY(-200%);
+    position: absolute;
+    width: var(--timeline-length);
+    height: 250px;
+    opacity: 1;
+    cursor: e-resize;
+    justify-content: center;
+    display: flex;
+}
+#line {
+    top: calc(50% - 5px);
+    height: 10px;
+    width: var(--timeline-length);
+    background-color: black;
+    position: relative;
+}
+
+
+
+#yr1819 {
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#yr1948 {
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#yr1974 {
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#yr1980 {
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: 750px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#yr1984 {
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    top: 50%;
+    left: 1000px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#yr1989 {
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: 1250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#yr1995 {
+    height: 50px;
+    width: 5px;
+    position: absolute;
+    top: 50%;
+    left: 1500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.textUp {
+    bottom: 50px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    text-align: center;
+}
+.textDown {
+    top: 50px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    text-align: center;
+}
+
+#Back {
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+#Back:hover {
+    background-color: rgb(39, 39, 39);
+}
+
+.img {
+    width: 200px;
+    height: 300px;
+    background-position: 100% 0px;
+    background-size:  200% 300px;
+    background-color: #000000;
+    position: absolute;
+    border: 3px solid black;
+    z-index: 10;
+}
+
+
+#img1 {
+    background-image: url("../images/timeline/img1.png");
+    top: 150px;
+    left: -500px;
+}
+
+#img2 {
+    background-image: url("../images/timeline/img2.png");
+    top: -150px;
+    left: -250px;
+}
+
+#img3 {
+    background-image: url("../images/timeline/img3.png");
+    top: 200px;
+    left: 50px;
+}
+
+#img4 {
+    background-image: url("../images/timeline/img4.png");
+    top: -225px;
+    left: 425px;
+}
+
+#img5 {
+    background-image: url("../images/timeline/img5.png");
+    top: 225px;
+}
+
+#img6 {
+    background-image: url("../images/timeline/img6.png");
+    top: -190px;
+    left: 875px;
+}
+
+#img7 {
+    background-image: url("../images/timeline/img7.png");
+    top: 250px;
+    left: 1175px;
+}
+
+#img8 {
+    background-image: url("../images/timeline/img8.png");
+    top: -30px;
+    left: 1600px;
+}
